@@ -23,7 +23,7 @@ function build(argv) {
         dir: absPath('dist'),
         out: absPath('build'),
         overwrite: true,
-        platform: argv
+        platform: win32
     }).then(path => {
         console.log(`Output: ${path}`);
     }).catch(err => {
