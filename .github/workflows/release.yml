@@ -26,7 +26,13 @@ jobs:
         run: |
           yarn install
           script/ci-build.sh tag
+          cd build
           ls -a
+          cd ..
+          cd dist
+          ls -a
+          cd ..
+          
       - name: Upload asar
         uses: actions/upload-artifact@v3
         with:
