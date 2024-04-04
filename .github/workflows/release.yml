@@ -26,6 +26,7 @@ jobs:
         run: |
           yarn install
           script/ci-build.sh tag
+          npm run build
           cd build
           ls -a
           cd ..
