@@ -1,0 +1,14 @@
+name: Test
+on: push
+jobs:
+  wow:
+    runs-on: windows-2019
+    steps:
+    - name: first
+      run: |
+        npm install
+        npm run dist
+        npm run build
+        
+    
+    
