@@ -8,6 +8,7 @@
 ## 说明
 
 这是由项目 Electron Netease Music 编译的Windows 版本，不是官方提供的     
+下载移步到  [*Release*](https://github.com/Xiaoxiaoyu1321/electron-netease-cloud-music-for-windows/releases)页面   
 
 ## ScreenShots
 
