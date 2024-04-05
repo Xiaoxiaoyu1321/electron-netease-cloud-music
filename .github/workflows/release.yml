@@ -25,7 +25,7 @@ jobs:
       - name: Build
         run: |
           yarn install
-          
+          yarn add usocket
           yarn add electron-builder
           npm install electron-builder -g
           script/ci-build.sh tag
