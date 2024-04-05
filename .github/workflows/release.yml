@@ -9,7 +9,7 @@ defaults:
 
 jobs:
   build:
-    runs-on: wiindows-latest
+    runs-on: windows-latest
     steps:
       - name: Checkout source code
         uses: actions/checkout@v3
