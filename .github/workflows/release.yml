@@ -25,7 +25,6 @@ jobs:
       - name: Build
         run: |
           sudo apt update
-          sudo apt upgrade -y
           sudo apt-get install wine64 -y
           yarn install
           yarn add usocket
