@@ -25,10 +25,7 @@ jobs:
       - name: Build
         run: |
           yarn install
-          yarn add dbus-next
-          yarn add electron-fetch
-          yarn add tough-cookie
-          yarn add vue-template-compiler
+          
 
           npm install electron-builder -g
           script/ci-build.sh tag
