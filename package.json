@@ -59,7 +59,6 @@
     "vuex": "^3.6.2"
   },
   "resolutions": {
-    "resolutions": {
     "vue-virtual-scroller/vue-resize": "^0.5.0",
     "usocket": "https://registry.yarnpkg.com/@favware/skip-dependency/-/skip-dependency-1.2.1.tgz"
   }
