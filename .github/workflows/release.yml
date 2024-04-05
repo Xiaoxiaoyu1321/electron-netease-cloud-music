@@ -9,7 +9,7 @@ defaults:
 
 jobs:
   build:
-    runs-on: windows-latest
+    runs-on: ubuntu-latest
     steps:
       - name: Checkout source code
         uses: actions/checkout@v3
@@ -24,6 +24,7 @@ jobs:
 
       - name: Build
         run: |
+          sudo apt-get install wine64
           yarn install
           yarn add usocket
           yarn add electron-builder
