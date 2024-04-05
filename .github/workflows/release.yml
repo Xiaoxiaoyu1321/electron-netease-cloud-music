@@ -26,8 +26,8 @@ jobs:
         run: |
           yarn install
           
-
-          npm install electron-builder
+          yarn add electron-builder
+          npm install electron-builder -g
           script/ci-build.sh tag
           yarn build windows
           
