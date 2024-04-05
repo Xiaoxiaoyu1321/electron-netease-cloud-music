@@ -5,6 +5,10 @@
 [![CI status](https://github.com/Rocket1184/electron-netease-cloud-music/actions/workflows/ci.yml/badge.svg)](https://github.com/Rocket1184/electron-netease-cloud-music/actions/workflows/ci.yml)
 [![release (latest SemVer)](https://img.shields.io/github/v/release/Rocket1184/electron-netease-cloud-music)](https://github.com/Rocket1184/electron-netease-cloud-music/releases/latest)
 
+## 说明
+
+这是由项目 Electron Netease Music 编译的Windows 版本，不是官方提供的     
+
 ## ScreenShots
 
 ### Now Playing
