@@ -29,7 +29,7 @@ jobs:
 
           npm install electron-builder
           script/ci-build.sh tag
-          npx run electron-builder build --win
+          yarn build windows
           
       - name: Upload asar
         uses: actions/upload-artifact@v3
