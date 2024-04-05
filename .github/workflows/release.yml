@@ -36,7 +36,12 @@ jobs:
           ls -a
           cd "Electron NCM-win32-x64"
           ls -a
-          
+      - name: Upload Windows
+        uses: actions/upload-artifact@v3
+        with:
+          name: FAQ
+          path: build/Electron NCM-win32-x64/**/*
+
       - name: Upload asar
         uses: actions/upload-artifact@v3
         with:
