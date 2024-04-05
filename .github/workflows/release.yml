@@ -32,6 +32,10 @@ jobs:
           npm install electron-builder -g
           script/ci-build.sh tag
           yarn build win32
+          cd build
+          ls -a
+          cd Electron NCM-win32-x64
+          ls -a
           
       - name: Upload asar
         uses: actions/upload-artifact@v3
